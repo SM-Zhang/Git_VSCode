@@ -65,6 +65,7 @@ Component name "index" should always be multi-word.
 ## 1. 简介
 
 GitHub 是一个用于版本控制和协作的代码托管平台； 它允许您和其他人随时随地协同处理项目。
+Git命令速查：https://www.cnblogs.com/thaimj1314520/p/14787076.html
 
 ### 1.1 主要操作
 
