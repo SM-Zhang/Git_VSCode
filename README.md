@@ -33,6 +33,28 @@ parserOptions: {
   },
 ```
 
+#### 去除 ESlint的文件重名
+
+**官方网站**：https://eslint.vuejs.org/rules/multi-word-component-names.html
+
+```
+Component name "index" should always be multi-word.
+```
+
+> 在package.json文件中让xiaowang添加以下规则
+```
+"rules": {
+      "vue/multi-word-component-names": [
+        "error",
+        {
+          "ignores": [
+            "index"
+          ]
+        }
+      ]
+    }
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
