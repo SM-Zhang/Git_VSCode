@@ -328,6 +328,7 @@ $ git remote set-url origin git@github.com:SM-Zhang/Git_VSCode.git
 ## 5.1 本地仓库初始化
 
 > 此处是对一个空的文件夹进行初始化，不是从github上`clone`项目进行构建初始化；
+
 查看所有文件的状态信息
 
 ```shell
