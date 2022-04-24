@@ -38,7 +38,7 @@
         "error",
         {
           "ignores": [
-            "index"
+            "index","Compute"
           ]
         }
       ]
