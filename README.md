@@ -41,7 +41,7 @@ parserOptions: {
 Component name "index" should always be multi-word.
 ```
 
-> 在package.json文件中让xiaowang添加以下规则
+> 在package.json文件中添加以下规则
 ```
 "rules": {
       "vue/multi-word-component-names": [
