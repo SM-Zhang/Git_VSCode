@@ -20,5 +20,23 @@ npm run build
 npm run lint
 ```
 
+#### 去除ESlint的代码格式报错（波浪红线）
+package.json文件中添加以下配置
+```
+requireConfigFile: false
+```
+```
+parserOptions: {
+    parser: '@babel/eslint-parser',
+    requireConfigFile: false
+    // arsing error: No Babel config file detected for D:\own\project\git_project\git_vue01\vue.config.js. Either disable config file checking with requireConfigFile: false, or configure Babel so that it can find the config files.eslint
+  },
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Git学习
+## SSH提交代码
+
+### 1. Git中文件的标志
