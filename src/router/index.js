@@ -31,3 +31,11 @@ const router = createRouter({
 })
 
 export default router
+
+// 安装插件时
+// 项目运行必须的文件，那么就使用 --save
+// 非必须的使用 --save -dev
+// --save：将保存配置信息到pacjage.json的dependencies节点中。
+// --save -dev：将保存配置信息到pacjage.json的devDependencies节点中。
+// dependencies：运行时的依赖，发布后，即生产环境下还需要用的模块
+// devDependencies：开发时的依赖。里面的模块是开发时用的，发布时用不到它
