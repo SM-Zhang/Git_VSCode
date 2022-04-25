@@ -1,18 +1,15 @@
 <template>
   <div>
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <Compute msg="Welcome to Your Vue.js App" />
+    <!-- 最终的路由出口 -->
+    <!-- 路由匹配到的组件将渲染在这里 -->
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Compute from "./components/Compute.vue";
 
 export default {
-  name: "App",
-  components: {
-    Compute,
-  },
+  
 };
 </script>
 

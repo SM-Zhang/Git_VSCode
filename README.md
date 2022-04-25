@@ -47,6 +47,7 @@ Component name "index" should always be multi-word.
 ```
 
 > 在package.json文件中添加以下规则
+
 ```
 "rules": {
       "vue/multi-word-component-names": [
@@ -57,6 +58,16 @@ Component name "index" should always be multi-word.
           ]
         }
       ]
+    }
+```
+
+### 去除ESlint未被使用标红
+
+> XXX is defined but never used.eslint
+
+```
+"rules": {
+      "no-unused-vars": "off",
     }
 ```
 
